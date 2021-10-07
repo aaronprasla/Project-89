@@ -1,0 +1,14 @@
+#output {
+    background: white; 
+    border-radius: 10px; 
+    border-top: 10px solid cyan; 
+    padding: 10px; 
+    float: none; 
+    text-align: left;
+}
+body {
+    background-color: darkblue;
+}
+#send {
+    background-color: lime;
+}

@@ -8,20 +8,23 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="quiz game login.js"></script>
+        <script src="quiz_game_login.js"></script>
     </head>
     <body>
         <center>
-            <h1>The Math Quiz</h1>
-            <div id="player1" class="btn btn-danger">
-                <h3>Player 1</h3>
-                <h6>Username: </h6>
-                <input id="inputP1" type="text" placeholder="Player 1's Username">
-            </div>
-            <div id="player2" class="btn btn-danger">
-                <h3>Player 2</h3>
-                <h6>Username: </h6>
-                <input id="inputP1" type="text" placeholder="Player 2's Username">
+            <div>
+                <h1>The Math Quiz</h1>
+                <div id="player1" class="btn btn-danger">
+                    <h3>Player 1</h3>
+                    <h6>Username: </h6>
+                    <input id="inputP1" type="text" placeholder="Player 1's Username">
+                </div>
+                <div id="player2" class="btn btn-danger">
+                    <h3>Player 2</h3>
+                    <h6>Username: </h6>
+                    <input id="inputP2" type="text" placeholder="Player 2's Username">
+                </div>
+                <button id="login_button" onclick="Login()">Login</button>
             </div>
         </center>
     </body>
