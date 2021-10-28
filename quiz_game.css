@@ -12,3 +12,7 @@ body {
 #send {
     background-color: lime;
 }
+#question_turn, #answer_turn, #player1_score, #player2_score, #player1_name, #player2_name{
+    color: white;
+    display: inline;
+}
